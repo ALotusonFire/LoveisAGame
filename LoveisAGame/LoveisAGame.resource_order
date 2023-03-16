@@ -18,6 +18,8 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"s_enemy","order":2,"path":"sprites/s_enemy/s_enemy.yy",},
     {"name":"s_wall","order":1,"path":"sprites/s_wall/s_wall.yy",},
+    {"name":"oEnemy","order":2,"path":"objects/oEnemy/oEnemy.yy",},
   ],
 }
