@@ -45,6 +45,7 @@
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"scr_Macros","path":"scripts/scr_Macros/scr_Macros.yy",},},
+    {"id":{"name":"s_enemyBattle","path":"sprites/s_enemyBattle/s_enemyBattle.yy",},},
     {"id":{"name":"s_Solid","path":"sprites/s_Solid/s_Solid.yy",},},
     {"id":{"name":"s_playerBattle","path":"sprites/s_playerBattle/s_playerBattle.yy",},},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},},
