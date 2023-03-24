@@ -25,5 +25,6 @@
     {"name":"oGameController","order":3,"path":"objects/oGameController/oGameController.yy",},
     {"name":"BattleRoom","order":1,"path":"rooms/BattleRoom/BattleRoom.yy",},
     {"name":"oEnemy","order":2,"path":"objects/oEnemy/oEnemy.yy",},
+    {"name":"s_playerBattle","order":5,"path":"sprites/s_playerBattle/s_playerBattle.yy",},
   ],
 }
