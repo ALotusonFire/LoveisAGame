@@ -36,6 +36,7 @@
   },
   "resources": [
     {"id":{"name":"scr_Alarmfix","path":"scripts/scr_Alarmfix/scr_Alarmfix.yy",},},
+    {"id":{"name":"s_metaphorsUI","path":"sprites/s_metaphorsUI/s_metaphorsUI.yy",},},
     {"id":{"name":"t_Solid","path":"tilesets/t_Solid/t_Solid.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"s_enemy","path":"sprites/s_enemy/s_enemy.yy",},},
@@ -44,11 +45,13 @@
     {"id":{"name":"BattleRoom","path":"rooms/BattleRoom/BattleRoom.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oMetaphorObject","path":"objects/oMetaphorObject/oMetaphorObject.yy",},},
     {"id":{"name":"scr_Macros","path":"scripts/scr_Macros/scr_Macros.yy",},},
     {"id":{"name":"s_enemyBattle","path":"sprites/s_enemyBattle/s_enemyBattle.yy",},},
     {"id":{"name":"s_Solid","path":"sprites/s_Solid/s_Solid.yy",},},
     {"id":{"name":"s_playerBattle","path":"sprites/s_playerBattle/s_playerBattle.yy",},},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},},
+    {"id":{"name":"s_metaphorsUI_object","path":"sprites/s_metaphorsUI_object/s_metaphorsUI_object.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
