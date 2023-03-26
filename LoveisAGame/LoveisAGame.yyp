@@ -42,6 +42,7 @@
     {"id":{"name":"s_enemy","path":"sprites/s_enemy/s_enemy.yy",},},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},},
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},},
+    {"id":{"name":"oMetaphors","path":"objects/oMetaphors/oMetaphors.yy",},},
     {"id":{"name":"BattleRoom","path":"rooms/BattleRoom/BattleRoom.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},

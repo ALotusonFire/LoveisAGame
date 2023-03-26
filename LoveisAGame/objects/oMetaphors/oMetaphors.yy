@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oMetaphorObject",
+  "name": "oMetaphors",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_metaphorsUI_object",
-    "path": "sprites/s_metaphorsUI_object/s_metaphorsUI_object.yy",
+    "name": "s_metaphorsUI",
+    "path": "sprites/s_metaphorsUI/s_metaphorsUI.yy",
   },
   "spriteMaskId": null,
   "visible": true,

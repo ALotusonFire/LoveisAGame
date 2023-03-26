@@ -24,6 +24,7 @@
     {"name":"s_enemy","order":2,"path":"sprites/s_enemy/s_enemy.yy",},
     {"name":"s_wall","order":1,"path":"sprites/s_wall/s_wall.yy",},
     {"name":"oGameController","order":3,"path":"objects/oGameController/oGameController.yy",},
+    {"name":"oMetaphors","order":5,"path":"objects/oMetaphors/oMetaphors.yy",},
     {"name":"BattleRoom","order":1,"path":"rooms/BattleRoom/BattleRoom.yy",},
     {"name":"oEnemy","order":2,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"oMetaphorObject","order":4,"path":"objects/oMetaphorObject/oMetaphorObject.yy",},
