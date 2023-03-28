@@ -5,4 +5,5 @@ function scr_enemyTurn(){
 	instance_destroy(oMetaphorObject);
 	oDarkness.image_index = 1;
 	layer_set_visible("BulletHell", true);
+	oPlayer_Battle.state = stateFree
 }

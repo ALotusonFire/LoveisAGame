@@ -2,5 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_Disease(){
 	show_debug_message("Poison!")
-	scr_enemyTurn()
+	
+	execute after 2 seconds
+		scr_enemyTurn()
+	done
 }

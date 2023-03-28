@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_enemyTurn",
+  "name": "scr_PlayerStates",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

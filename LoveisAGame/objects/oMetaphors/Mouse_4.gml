@@ -1,7 +1,7 @@
 /// @description Mouse Click
 
 //Create the Metaphor objects
-if (oGameController.state == "playerTurn"){
+if (oPlayer_Battle.state == statePaused){
 	
 	if (created = true) {
 		created = false
