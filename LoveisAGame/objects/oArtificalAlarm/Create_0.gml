@@ -1,0 +1,9 @@
+_my_callback = noone;
+_interval = 1;
+alarm[0] = _interval;
+_passed_frames = 0;
+_passed_seconds = 0;
+_num_called = 0;
+_abort_at_frame = -1;
+_my_obj = noone;
+_execution_name = "";

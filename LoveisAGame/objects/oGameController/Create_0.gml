@@ -9,6 +9,6 @@
 //paused
 state = "playerTurn"
 
-//Player Metaphors
-global.metaphors = [2,7,3];
-//meta_amount = array_length(global.metaphors);
+//Player Metaphors, Maximum of 4 for now.
+//(PLACE HOLDERS);
+global.metaphors = [0,1];

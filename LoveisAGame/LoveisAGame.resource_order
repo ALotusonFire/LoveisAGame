@@ -16,10 +16,13 @@
     {"name":"TileSets","order":4,"path":"folders/Sprites/TileSets.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Metaphors","order":2,"path":"folders/Scripts/Metaphors.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"oArtificalAlarm","order":6,"path":"objects/oArtificalAlarm/oArtificalAlarm.yy",},
     {"name":"scr_Alarmfix","order":1,"path":"scripts/scr_Alarmfix/scr_Alarmfix.yy",},
     {"name":"s_metaphorsUI","order":7,"path":"sprites/s_metaphorsUI/s_metaphorsUI.yy",},
+    {"name":"s_metaphorsUI_icon","order":9,"path":"sprites/s_metaphorsUI_icon/s_metaphorsUI_icon.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"s_enemy","order":2,"path":"sprites/s_enemy/s_enemy.yy",},
     {"name":"s_wall","order":1,"path":"sprites/s_wall/s_wall.yy",},
@@ -29,7 +32,9 @@
     {"name":"oEnemy","order":2,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"oMetaphorObject","order":4,"path":"objects/oMetaphorObject/oMetaphorObject.yy",},
     {"name":"s_enemyBattle","order":6,"path":"sprites/s_enemyBattle/s_enemyBattle.yy",},
+    {"name":"scr_Disease","order":1,"path":"scripts/scr_Disease/scr_Disease.yy",},
     {"name":"s_playerBattle","order":5,"path":"sprites/s_playerBattle/s_playerBattle.yy",},
     {"name":"s_metaphorsUI_object","order":8,"path":"sprites/s_metaphorsUI_object/s_metaphorsUI_object.yy",},
+    {"name":"scr_enemyTurn","order":2,"path":"scripts/scr_enemyTurn/scr_enemyTurn.yy",},
   ],
 }

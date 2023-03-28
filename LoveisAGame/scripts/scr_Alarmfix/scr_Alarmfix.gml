@@ -1,5 +1,3 @@
-//Muffel asset written by Ribbyte (www.ribbyte.com)
-
 // macros for "execute EVERY 3 seconds" etc.
 
 // "execute" does nothing, it just looks good when reading code
@@ -35,8 +33,7 @@ execution_block_map = ds_map_create();
 // todo:
 // execute in 1 second <- geht nicht, da es "1 seconds" heißen müsste
 function execute_every_n_frames(n, callback) {
-	var inst = instance_create_layer(0, 0, layer, o_ArtificalAlarm);
-	//(0, 0, 0, o_ArtificalAlarm);
+	var inst = instance_create_layer(0, 0, layer, oArtificalAlarm);
 	inst._my_callback = callback;
 	inst._interval = n
 	inst._my_obj = self
@@ -112,8 +109,8 @@ function execute_after_n(n, type, callback) {
 function max_instances_reached(execution_name, max_instances) {
 	var num_instances = 0;
 	set_name(execution_name);
-	for (i = 0; i < instance_number(o_ArtificalAlarm); i += 1) {
-		var current_alarm = instance_find(o_ArtificalAlarm, i);
+	for (i = 0; i < instance_number(oArtificalAlarm); i += 1) {
+		var current_alarm = instance_find(oArtificalAlarm, i);
 		if(current_alarm._execution_name == execution_name)
 			num_instances += 1
 	}
