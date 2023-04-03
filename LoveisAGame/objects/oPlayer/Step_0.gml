@@ -13,6 +13,9 @@ vsp = vsp + grv;
 if(place_meeting(x,y+1,oWall)) && (key_jump)
 {
 	vsp = -10;
+	
+	sprite_index = s_playerJ;
+	image_speed = 1;
 }
 
 if(place_meeting(x+hsp,y,oWall))
@@ -22,6 +25,7 @@ if(place_meeting(x+hsp,y,oWall))
 		x = x + sign(hsp);
 	}
 	hsp = 0;
+	
 }
 x = x + hsp;
 
@@ -34,3 +38,28 @@ if(place_meeting(x,y+vsp,oWall))
 	vsp = 0;
 }
 y = y + vsp;
+
+if(hsp < 0)
+{
+ image_xscale = -.08;
+}
+else if(hsp > 0)
+{
+image_xscale = .08;
+}
+if(hsp != 0)
+{
+	sprite_index = s_playerR;
+	image_speed = 1;
+}
+
+else if(hsp = 0 && vsp = 0)
+{
+	sprite_index = s_player;
+	image_speed = 1;
+}
+else if(vsp != 0)
+{
+	sprite_index = s_playerJ;
+	image_speed = 1;
+}
