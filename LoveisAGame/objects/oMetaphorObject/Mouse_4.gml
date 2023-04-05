@@ -1,4 +1,4 @@
-/// @description Select
+/// @description Select Metaphor
 
 if oPlayer_Battle.state != stateFree {
 	switch (image_index) {
