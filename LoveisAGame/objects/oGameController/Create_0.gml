@@ -6,3 +6,4 @@
 //Player Metaphors, Maximum of 4 for now.
 //(PLACE HOLDERS);
 global.metaphors = [0,1];
+currentEnemy = "";
