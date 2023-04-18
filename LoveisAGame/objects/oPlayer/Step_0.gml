@@ -13,9 +13,7 @@ vsp = vsp + grv;
 if(place_meeting(x,y+1,oWall)) && (key_jump)
 {
 	vsp = -10;
-	
-	sprite_index = s_playerJ;
-	image_speed = 1;
+
 }
 
 if(place_meeting(x+hsp,y,oWall))
@@ -47,6 +45,7 @@ else if(hsp > 0)
 {
 image_xscale = .08;
 }
+
 if(hsp != 0)
 {
 	sprite_index = s_playerR;

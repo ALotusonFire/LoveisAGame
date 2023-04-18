@@ -1,7 +1,7 @@
 // Enemy "Bob" (Placeholder) attacks! What will it use?
 
 function scr_BobAttacks(){
-	var atk = irandom_range(1,3);
+	var atk = 1 //irandom_range(1,3);
 		switch (atk) {
 			case 1:
 				BAttack1();
@@ -16,7 +16,13 @@ function scr_BobAttacks(){
 }
 
 function BAttack1(){
-	execute after 3 seconds
+	
+	instance_create_layer(1200, 100, "Attacks", oFireSpawner)
+	instance_create_layer(1330, 500, "Attacks", oFireSpawner)
+	
+	execute after 10 seconds
+	instance_destroy(oFireSpawner)
+	instance_destroy(oFireAttack)
 		scr_playerTurn();
 	done	
 }

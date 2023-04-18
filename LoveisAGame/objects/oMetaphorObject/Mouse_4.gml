@@ -1,5 +1,7 @@
 /// @description Select Metaphor
 
+scr_EnemyFlicker()
+
 if oPlayer_Battle.state != stateFree {
 	switch (image_index) {
 	
